@@ -1,22 +1,31 @@
-@extends("layouts.master")
+@extends("layouts.master-3")
 
 @section("page-title", $title)
 
 @section("page-css")
+<style>
+    .page-header {
+        background: none;
+    }
 
+    #home #top {
+        background-attachment: fixed;
+        height: 60vh;
+    }
+</style>
 @endsection
 
 @section('page-content')
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header">
-        <h1 class="display-3 text-uppercase text-white mb-3">{{ $title }}</h1>
-        <div class="d-inline-flex text-white">
-            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
-            <h6 class="text-white m-0 px-3">/</h6>
-            <h6 class="text-uppercase text-white m-0">{{ $breadcrumb_title }}</h6>
-        </div>
-    </div>
+    {{--<div class="container-fluid page-header">--}}
+        {{--<h1 class="display-3 text-uppercase text-white mb-3">{{ $title }}</h1>--}}
+        {{--<div class="d-inline-flex text-white">--}}
+            {{--<h6 class="text-uppercase m-0"><a href="">Home</a></h6>--}}
+            {{--<h6 class="text-white m-0 px-3">/</h6>--}}
+            {{--<h6 class="text-uppercase text-white m-0">{{ $breadcrumb_title }}</h6>--}}
+        {{--</div>--}}
+    {{--</div>--}}
     <!-- Page Header Start -->
 
 

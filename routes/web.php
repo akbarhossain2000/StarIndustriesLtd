@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/clear-cache', function() {
    return \Illuminate\Support\Facades\Artisan::call('config:cache');
 });
-Route::get('/', [App\Http\Controllers\PageManageController::class, 'home'])->name('home');
+//Route::get('/', [App\Http\Controllers\PageManageController::class, 'home'])->name('home');
+Route::get('/', [App\Http\Controllers\PageManageController::class, 'homeTwo'])->name('home2');
 Route::get('/about-us', [App\Http\Controllers\PageManageController::class, 'aboutUs'])->name('about_us');
 Route::get('/business-wings', [App\Http\Controllers\PageManageController::class, 'businessWings'])->name('business_wings');
 Route::get('/business-wings/{name}', [App\Http\Controllers\PageManageController::class, 'businessWingDetails'])->name('business_wing_details');

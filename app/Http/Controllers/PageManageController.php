@@ -11,14 +11,27 @@ class PageManageController extends Controller
         return view('pages.home');
     }
 
+    public function homeTwo()
+    {
+        return view('pages.home-2');
+    }
+
     public function aboutUs()
     {
-        return view('pages.about-us');
+        $data   = [
+            'title' => 'About Us',
+            'breadcrumb_title'    => 'About Us',
+        ];
+        return view('pages.about-us', $data);
     }
 
     public function businessWings()
     {
-        return view('pages.business-wings');
+        $data   = [
+            'title' => 'Business Wings',
+            'breadcrumb_title'    => 'Business Wings',
+        ];
+        return view('pages.business-wings', $data);
     }
 
     public function businessWingDetails($name)

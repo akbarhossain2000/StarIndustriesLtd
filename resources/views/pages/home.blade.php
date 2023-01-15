@@ -8,6 +8,7 @@
 
 @section('page-content')
 
+
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -17,7 +18,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             {{--<i class="fa fa-lightbulb fa-4x text-primary mb-4 d-none d-sm-block"></i>--}}
-                            <img src="{{ asset('assets/logo200X100.jpg') }}" alt="">
+                            <img src="{{ asset('assets/logo_star200X100.png') }}" alt="">
                             <h1 class="display-2 text-uppercase text-white mb-md-4">Star Industries Limited</h1>
                             {{--<a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Get A Quote</a>--}}
                         </div>
@@ -91,7 +92,7 @@
         <div class="row g-5">
             <div class="col-lg-12 col-md-12">
                 <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="{{ asset('assets/img/service-1.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/img/service-1-1.jpg') }}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-building text-primary"></i>
                     </div>
@@ -104,7 +105,7 @@
             </div>
             <div class="col-lg-12 col-md-12">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="{{ asset('assets/img/service-2.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/img/service-1-2.jpg') }}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-lightbulb text-primary"></i>
                     </div>
@@ -117,7 +118,7 @@
             </div>
             <div class="col-lg-12 col-md-12">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="{{ asset('assets/img/service-3.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/img/service-1-3.jpg') }}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-shopping-bag text-primary"></i>
                     </div>
@@ -130,7 +131,7 @@
             </div>
             <div class="col-lg-12 col-md-12">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="{{ asset('assets/img/service-4.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/img/service-1-4.jpg') }}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-fish text-primary"></i>
                     </div>
@@ -143,7 +144,7 @@
             </div>
             <div class="col-lg-12 col-md-12">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="{{ asset('assets/img/service-5.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/img/service-1-5.jpg') }}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-tram text-primary"></i>
                     </div>

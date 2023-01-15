@@ -38,8 +38,7 @@
 <!-- Topbar End -->
 
 <!-- Navbar Start -->
-@include("nav.nav-bar")
-{{--@include("header.header")--}}
+@include("header.header")
 <!-- Navbar End -->
 
 @yield("page-content")

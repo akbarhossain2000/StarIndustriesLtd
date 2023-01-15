@@ -63,6 +63,19 @@
         dots: false,
         loop: true,
     });
+
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("top2-sticky-wrapper");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("is-sticky");
+        } else {
+            header.classList.remove("is-sticky");
+        }
+    }
     
 })(jQuery);
 
